@@ -25,9 +25,9 @@ const Greeting = (props: GreetingProps) => {
 const LotsOfGreetings = () => {
   return (
     <View style={[styles.center, {top: 50}]}>
-      <Greeting name="Adam" lastName="Alred"/>
-      <Greeting name="Kaitlin" lastName="Byerly"/>
-      <Greeting name="Maple" lastName="Syrup"/>
+      <Greeting name="Test" lastName="test"/>
+      <Greeting name="test2" lastName="test2"/>
+      <Greeting name="test2" lastName="test2"/>
     </View>
   );
 };
